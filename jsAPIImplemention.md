@@ -3,12 +3,12 @@
 js中是比较灵活的比如：实现一个类（或者是对象）
 ```
 var Person = function(options) {
-	    this.name = options.name;
-	        this.age = options.age;
-		    //methods
-		        this.say = function(str) {
-				        console.log(str);
-					    }
+	this.name = options.name;
+	this.age = options.age;
+	//methods
+        this.say = function(str) {
+	        console.log(str);
+	}
 }
 //这种方式和java中的类声明很相似。比较大的区别在于java中的类声明更严谨一些，因为可以实现private属性或方法
 var dayu = new Person({name: 'yuyang', age:27});
@@ -83,9 +83,9 @@ var person = {
 	//
 	},
 	childs: [
-	0,
-	1
-	//..
+	        0,
+	        1
+	        //..
 	],
 	//@Description this is a function output sth.
 	//@Params  [String] string
