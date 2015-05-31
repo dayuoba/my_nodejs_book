@@ -1,4 +1,6 @@
-中是比较灵活的比如：实现一个类（或者是对象）
+##JS中API的接口设计
+
+js中是比较灵活的比如：实现一个类（或者是对象）
 ```
 var Person = function(options) {
 	    this.name = options.name;
